@@ -190,7 +190,6 @@ class morsecode_V3(morsecode_V2):
 
     def decode(self, morse_text):
         res = self.guess_morse(morse_text, '', 0, [], 0)
-        print(len(res))
         result = []
         for item in res:
             result.append((len(item.split()), item))
@@ -213,5 +212,22 @@ class morsecode_V3(morsecode_V2):
         print(self.encode('i love you'))
         print(self.decode(self.encode('i love you')))
     
-mytest = morsecode_V3()
+class morsecode_V4(morsecode_V3):
+    def decode(self, morse_text):
+        return self.guess_morse_reverse_max_len(morse_text)
+
+    def guess_morse_reverse_max_len(self, morse_text):
+        if morse_text == '':
+            return ''
+        else:
+            for start in range( max( len(morse_text) - self.max_len, 0 ), len(morse_text)):
+                single_word = self.word_dict.get(morse_text[start:], None)
+                if single_word:
+                    break
+            return self.guess_morse_reverse_max_len(morse_text[:start]) + (' ' if morse_text[:start] else '') + single_word
+
+    def test(self):
+        print(self.decode(self.encode('i love you')))
+
+mytest = morsecode_V4()
 mytest.test()
