@@ -78,8 +78,6 @@ get
 pm
 view
 online
-c
-e
 first
 am
 been
