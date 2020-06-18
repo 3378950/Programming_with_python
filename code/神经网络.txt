@@ -1,0 +1,38 @@
+1: 神经网络与深度学习
+2: Python神经网络编程
+3: Python深度学习
+4: 深度学习入门
+5: 深度学习的数学
+6: 深入浅出图神经网络：GNN原理解析
+7: 数字思维
+8: 神经网络设计（原书第2版）
+9: 连接组：造就独一无二的你
+10: Neural Networks and Deep Learning
+11: 神经网络在应用科学和工程中的应用
+12: 图解深度学习与神经网络：从张量到TensorFlow实现
+13: 意识的宇宙
+14: Make Your Own Neural Network
+15: 神经网络原理(原书第2版)
+16: Hands-On Machine Learning with Scikit-Learn and TensorFlow
+17: Neural Networks and Learning Machines
+18: 神经网络控制
+19: Neural Networks and Statistical Learning
+20: 精通Visual C++指纹模式识别系统算法及实现
+21: Learning Deep Architectures for AI
+22: 深入理解神经网络
+23: 智慧的疆界
+24: MATLAB神经网络原理与实例精解
+25: 动手学深度学习
+26: Neural Networks for Pattern Recognition
+27: 人工神经网络理论、设计及应用
+28: Unsupervised Learning
+29: Python深度学习
+30: Pattern Recognition and Machine Learning
+31: Neural Networks and Deep Learning
+32: MATLAB神经网络43个案例分析
+33: 人工神经网络理论及应用(普通高等教育电气工程自动化系列规划教材)
+34: Neural Network Methods in Natural Language Processing
+35: 神经网络设计
+36: 自己动手写神经网络
+37: 认知的维度
+38: 深度学习核心技术与实践
